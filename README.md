@@ -21,6 +21,8 @@ print(a is c)  # False: c is a different object with same content
 Use it for identity comparison, like checking if a variable is None:
 if my_var is None:
     print("No value assigned")
+
+
 🔹 in — Membership Operator
 The in operator checks whether a value exists in an iterable (like lists, strings, or tuples).
 
