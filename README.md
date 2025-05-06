@@ -9,8 +9,6 @@ Understanding Python's `is` and `in` operators is crucial for writing clean and 
 
 ### 🔹 `is` — Identity Operator  
 The `is` operator checks whether two variables refer to the **same object in memory**.
-
-```python
 a = [1, 2, 3]
 b = a
 c = [1, 2, 3]
