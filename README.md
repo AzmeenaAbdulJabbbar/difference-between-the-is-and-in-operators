@@ -42,3 +42,26 @@ Use is for identity checks (e.g., None, singleton values).
 Use in to check for membership in collections.
 
 is does not check for equality — that’s what == is for.
+
+in — Membership Operator
+The in operator checks whether a value exists in an iterable (like lists, strings, or tuples).
+
+fruits = ['apple', 'banana', 'cherry']
+
+print('banana' in fruits)  # True
+print('mango' in fruits)   # False
+
+text = "hello world"
+print('h' in text)         # True
+📊 Summary Table
+Operator	Purpose	Example Use Case
+is	Identity (same object)	Checking if a is None
+in	Membership (exists in group)	Checking if 'x' in my_list
+
+✅ Quick Tips
+Use is for identity checks (e.g., None, singleton values).
+
+Use in to check for membership in collections.
+
+is does not check for equality — that’s what == is for.
+
